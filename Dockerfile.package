@@ -1,0 +1,8 @@
+FROM ubuntu:16.04
+MAINTAINER Fbigun <rsdhlz@qq.com>
+
+COPY usr/bin/application /usr/bin/application
+
+EXPOSE 3000
+
+CMD ["application"]
